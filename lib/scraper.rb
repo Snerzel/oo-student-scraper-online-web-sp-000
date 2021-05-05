@@ -36,7 +36,7 @@ class Scraper
       return_hash[:bio] = doc.css(".bio-block.details-block .bio-content.content-holder .description-holder p").text
 
   return_hash
-  end
+  #end
   end
 
 end
